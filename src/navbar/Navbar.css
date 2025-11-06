@@ -1,0 +1,58 @@
+.logo img{
+    width: 100px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        color: white;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        list-style: none;
+    }
+    .links a{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        font-style: bold;
+        font-weight: 700;
+        
+    }
+.linkcha{
+    width: 100%px;
+    height: 30px;
+    text-align: center;
+    transform: scale(1.1);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+    .links .linkcha:hover{
+        background-color: rgba(0, 0, 0, 0.406);
+       
+        transition: all .3s ease-in-out;
+       
+    }
+    nav .container{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 10px 20px;
+
+    }
+    nav{
+        position: absolute;
+        top: 1px;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background: transparent;
+    }
+   
